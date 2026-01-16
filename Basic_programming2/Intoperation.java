@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Intoperation{
+	public static void main(String []args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number a:");
+		int a =sc.nextInt();
+		System.out.println("enetr the number b:");
+		int b =sc.nextInt();
+		System.out.println("enetr the number c:");
+		int c = sc.nextInt();
+		
+		System.out.println(a+b*c);
+		System.out.println(a*b+c);
+		System.out.println(c+a/b);
+		System.out.println(a%b+c);
+	}
+}
+		
+		
